@@ -16,7 +16,7 @@
 		BDA0EAD8289304B2001CDF9C /* quiz_mini_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAD7289304B2001CDF9C /* quiz_mini_projectTests.swift */; };
 		BDA0EAE2289304B2001CDF9C /* quiz_mini_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAE1289304B2001CDF9C /* quiz_mini_projectUITests.swift */; };
 		BDA0EAE4289304B2001CDF9C /* quiz_mini_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAE3289304B2001CDF9C /* quiz_mini_projectUITestsLaunchTests.swift */; };
-		BDA0EAF32893072A001CDF9C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAF22893072A001CDF9C /* FirstViewController.swift */; };
+		BDA0EAF32893072A001CDF9C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAF22893072A001CDF9C /* AlbumViewController.swift */; };
 		BDA0EAF528931981001CDF9C /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0EAF428931981001CDF9C /* Milk.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		BDA0EADD289304B2001CDF9C /* quiz_mini_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quiz_mini_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA0EAE1289304B2001CDF9C /* quiz_mini_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz_mini_projectUITests.swift; sourceTree = "<group>"; };
 		BDA0EAE3289304B2001CDF9C /* quiz_mini_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz_mini_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BDA0EAF22893072A001CDF9C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BDA0EAF22893072A001CDF9C /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		BDA0EAF428931981001CDF9C /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 				BDA0EAC9289304B2001CDF9C /* Assets.xcassets */,
 				BDA0EACB289304B2001CDF9C /* LaunchScreen.storyboard */,
 				BDA0EACE289304B2001CDF9C /* Info.plist */,
-				BDA0EAF22893072A001CDF9C /* FirstViewController.swift */,
+				BDA0EAF22893072A001CDF9C /* AlbumViewController.swift */,
 				BDA0EAF428931981001CDF9C /* Milk.swift */,
 			);
 			path = quiz_mini_project;
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA0EAF32893072A001CDF9C /* FirstViewController.swift in Sources */,
+				BDA0EAF32893072A001CDF9C /* AlbumViewController.swift in Sources */,
 				BDA0EAC5289304B0001CDF9C /* ViewController.swift in Sources */,
 				BDA0EAC1289304B0001CDF9C /* AppDelegate.swift in Sources */,
 				BDA0EAC3289304B0001CDF9C /* SceneDelegate.swift in Sources */,

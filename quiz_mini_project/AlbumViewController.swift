@@ -7,14 +7,30 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class AlbumViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func asitwas(_ sender: UIButton) {
+        Milk.whole+=1
+    }
+    
+    @IBAction func dejavu(_ sender: UIButton) {
+        Milk.soy+=1
 
+    }
+    
+    @IBAction func taylor(_ sender: UIButton) {
+        Milk.organic+=1
+    }
+    
+    @IBAction func stevelacy(_ sender: UIButton) {
+        Milk.twoPer+=1
+    }
+    
     // MARK: - Navigation
 
 //     In a storyboard-based application, you will often want to do a little preparation before navigation

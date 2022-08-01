@@ -118,10 +118,10 @@ soy </string>
             </objects>
             <point key="canvasLocation" x="-220.28985507246378" y="179.46428571428569"/>
         </scene>
-        <!--First View Controller-->
+        <!--Album-->
         <scene sceneID="fQG-Ts-9Pn">
             <objects>
-                <viewController id="hNj-RJ-xdH" customClass="FirstViewController" customModule="quiz_mini_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hNj-RJ-xdH" customClass="Album" customModule="quiz_mini_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YgQ-0O-Wy3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,6 +158,7 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="asitwas:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="L3N-zU-YYE"/>
                                     <segue destination="QNw-TV-UNW" kind="presentation" id="Fm7-iW-YiF"/>
                                 </connections>
                             </button>
@@ -177,6 +178,7 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="dejavu:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="xtC-lh-Dt0"/>
                                     <segue destination="QNw-TV-UNW" kind="presentation" id="tm8-Gu-q4T"/>
                                 </connections>
                             </button>
@@ -196,6 +198,7 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="taylor:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="gnR-8C-gXA"/>
                                     <segue destination="QNw-TV-UNW" kind="presentation" id="cNH-IQ-S7r"/>
                                 </connections>
                             </button>
@@ -215,6 +218,7 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="stevelacy:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="0bC-Ae-Du8"/>
                                     <segue destination="QNw-TV-UNW" kind="presentation" id="lE4-VH-Fa2"/>
                                 </connections>
                             </button>
