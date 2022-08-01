@@ -511,10 +511,10 @@ Steve Lacy</string>
             </objects>
             <point key="canvasLocation" x="2324.6376811594205" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Activity View Controller-->
         <scene sceneID="huA-CP-qhA">
             <objects>
-                <viewController id="QNw-TV-UNW" sceneMemberID="viewController">
+                <viewController id="QNw-TV-UNW" customClass="ActivityViewController" customModule="quiz_mini_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fjO-wp-Jmh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
