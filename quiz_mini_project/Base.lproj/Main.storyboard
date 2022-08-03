@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEU-6x-Svr">
-                                <rect key="frame" x="119" y="506" width="176" height="73"/>
+                                <rect key="frame" x="119" y="474" width="176" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.36810023489999999" green="0.37174479170000002" blue="0.37174479170000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -77,22 +77,6 @@ soy </string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbJ-46-cCP">
-                                <rect key="frame" x="71" y="555" width="275" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="have you been buying the wrong milk all this time?">
-                                        <attributes>
-                                            <color key="NSColor" red="0.21193649889999999" green="0.21403488009999999" blue="0.21403488009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="13" name="GillSans"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black_blob1" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-VC-j4H">
                                 <rect key="frame" x="220" y="65" width="384" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,6 +93,29 @@ soy </string>
                                 <rect key="frame" x="-499" y="20" width="723" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkc-vy-SIS">
+                                <rect key="frame" x="120" y="645" width="176" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.36810023489999999" green="0.37174479170000002" blue="0.37174479170000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="28" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QET-zu-ubf" kind="presentation" id="q2C-Hz-rCg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -118,10 +125,10 @@ soy </string>
             </objects>
             <point key="canvasLocation" x="-220.28985507246378" y="179.46428571428569"/>
         </scene>
-        <!--Album-->
+        <!--Album View Controller-->
         <scene sceneID="fQG-Ts-9Pn">
             <objects>
-                <viewController id="hNj-RJ-xdH" customClass="Album" customModule="quiz_mini_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hNj-RJ-xdH" customClass="AlbumViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YgQ-0O-Wy3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,8 +165,8 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="asItWas:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="EP2-Wb-W8U"/>
                                     <action selector="asitwas:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="L3N-zU-YYE"/>
-                                    <segue destination="QNw-TV-UNW" kind="presentation" id="Fm7-iW-YiF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fe-mh-HAt">
@@ -178,8 +185,8 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="dejaVu:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="4gx-j2-xh3"/>
                                     <action selector="dejavu:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="xtC-lh-Dt0"/>
-                                    <segue destination="QNw-TV-UNW" kind="presentation" id="tm8-Gu-q4T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waR-uU-jgd">
@@ -198,8 +205,7 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="taylor:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="gnR-8C-gXA"/>
-                                    <segue destination="QNw-TV-UNW" kind="presentation" id="cNH-IQ-S7r"/>
+                                    <action selector="taylor:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="xPy-Dk-lBp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1Z-cQ-TRW">
@@ -218,8 +224,8 @@ soy </string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="steveLacy:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="bC2-f9-CtN"/>
                                     <action selector="stevelacy:" destination="hNj-RJ-xdH" eventType="touchUpInside" id="0bC-Ae-Du8"/>
-                                    <segue destination="QNw-TV-UNW" kind="presentation" id="lE4-VH-Fa2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="harry_styles" translatesAutoresizingMaskIntoConstraints="NO" id="sA9-kc-yUX">
@@ -310,6 +316,24 @@ Steve Lacy</string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L1-9Q-6IC">
+                                <rect key="frame" x="293" y="59" width="78" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="toShape"/>
+                                <connections>
+                                    <segue destination="QET-zu-ubf" kind="presentation" identifier="toShape" id="aZt-fy-gQp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hS-wn-Dsw">
+                                <rect key="frame" x="290" y="44" width="85" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="toActivity"/>
+                                <connections>
+                                    <segue destination="QNw-TV-UNW" kind="presentation" identifier="toActivity" id="Emr-DA-tZg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vzy-KZ-jMy"/>
                         <color key="backgroundColor" red="0.25098040700000002" green="0.26274511220000002" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -608,7 +632,7 @@ Steve Lacy</string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="QET-zu-ubf" kind="presentation" id="xl3-YE-l79"/>
+                                    <segue destination="QET-zu-ubf" kind="presentation" identifier="toShape" id="xl3-YE-l79"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wm-K3-Utz">
@@ -685,6 +709,15 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og8-kk-Td7">
+                                <rect key="frame" x="346" y="24" width="67" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="QET-zu-ubf" kind="presentation" id="U9e-Op-TgM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SKF-vq-oPQ"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -692,7 +725,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z0l-bU-cSh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1563.768115942029" y="79.6875"/>
+            <point key="canvasLocation" x="1517" y="-406"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pCK-nS-c4U">
@@ -816,8 +849,7 @@ Cg
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="DJx-9b-gSl"/>
-        <segue reference="tm8-Gu-q4T"/>
-        <segue reference="xl3-YE-l79"/>
+        <segue reference="aZt-fy-gQp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="black_blob1" width="200" height="200"/>

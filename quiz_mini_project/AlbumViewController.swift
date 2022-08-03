@@ -15,6 +15,7 @@ class AlbumViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func asitwas(_ sender: UIButton) {
+        
         Milk.whole+=1
     }
     
